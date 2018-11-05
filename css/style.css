@@ -1,37 +1,43 @@
-.body{
+html{
   font-size: 10px;
 }
 
+
+/* General Text */
+
 h1{
   color: #8F8ACD;
-  font-size: 75px;
+  font-size: 7.5rem;
   text-align: left;
   font-family: "Champagne & Limousines";
-  margin-left: 198px;
-  margin-right: 198px;
-  font-weight: bold;
+  margin-left: 19.8rem;
+  margin-right: 19.8rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 h2 {
-  font-size: 65px;
+  font-size: 6.5rem;
   color: #8B8100;
-  margin-left: 198px;
-  margin-right: 198px;
-  font-family:"Madeleina Sans"
+  margin-left: 19.8rem;
+  margin-right: 19.8rem;
+  font-family:"Madeleina Sans";
+  margin-bottom: 4rem;
+  margin-top: 8rem;
 }
 
 h4{
-  margin-left: 198px;
-  margin-right: 198px;
+  margin-left: 19.8rem;
+  margin-right: 19.8rem;
 }
 
 p{
   color: #2a2a2a;
-  font-size: 20px;
+  font-size: 2rem;
   font-family: "WellrockSlab";
   line-height: 170%;
-  margin-left: 198px;
-  margin-right: 198px;
+  margin-left: 19.8rem;
+  margin-right: 19.8rem;
   font-weight: lighter;
 }
 
@@ -42,9 +48,15 @@ a {
   font-family: "WellrockSlabBold";
 }
 
+br {
+  line-height: .2rem;
+}
+
 .navbar{
 
 }
+
+/* Trunk Summary */
 
 .trunk-summary{
   background-image: url("../images/summary-background.png");
@@ -55,35 +67,35 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 46px;
+  padding-top: 4.6rem;
   width: 50%;
 }
 
 section.trunk-title h1{
   font-family: "Champagne & Limousines";
-  font-size: 150px;
+  font-size: 15rem;
   text-align: center;
   color: #8B8100;
   font-weight: bold;
-  margin-top: 100px;
+  margin-top: 10rem;
 }
 
 
 .trunk-underline{
   align-items: center;
   width: 40%;
-  margin-top: 0px;
+  margin-top: 0rem;
 }
 
 
 .prototype-link{
   text-decoration: none;
   color: #8F8ACD;
-  font-size: 35px;
+  font-size: 3.5rem;
   letter-spacing: .2rem;
   font-weight: lighter;
-  margin-top: 60px;
-  margin-bottom: 100px;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
   text-align: center;
 }
 
@@ -93,35 +105,88 @@ section.trunk-title h1{
 }
 
 .trunk-summary h1{
-  margin-top: 70px;
-  margin-bottom: 47px;
+  margin-top: 7rem;
+  margin-bottom: 4.7rem;
 }
 
 section.problem h2{
-  margin-left: 198px;
-  margin-right: 198px;
-  margin-bottom: 40px;
+  margin-left: 19.8rem;
+  margin-right: 19.8rem;
+  margin-top: 3rem;
 
 }
 
 section.solution h2{
-  margin-left: 0px;
-  margin-bottom: 40px;
+  margin-left: 0rem;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
 
 }
 
 section.problem-sol{
   display: flex;
   justify-content: center;
-  padding-bottom: 180px;
+  padding-bottom: 18rem;
 }
 
 section.problem p{
-  margin-right: 40px
-  width: 30%;
-  padding-right: 0px;
+  margin-right: 4rem;
+  padding-right: 0rem;
 }
 
 section.solution p{
-  margin-left: 0px;
+  margin-left: 0rem;
+}
+
+
+/* Process */
+
+
+/* Footer */
+footer{
+    background-image: url("../images/footer-background.png");
+    background-repeat: no-repeat;
+}
+
+.footer-connect h1{
+  color: #9486B5;
+  font-family: "Champagne & Limousines";
+  font-weight: bold;
+  font-size: 6rem;
+  text-align: center;
+  padding-top: 14rem;
+  margin-bottom: 7.2rem;
+  letter-spacing: .35rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+
+.linkedin {
+  float: left;
+  margin-left: 34rem;
+}
+
+.email {
+  float: left;
+  margin-left: 9rem;
+}
+
+.twitter {
+  float: left;
+  margin-left: 9rem;
+}
+
+.github {
+  float: right;
+  margin-right: 34rem;
+}
+
+.designed h4{
+  font-size: 3rem;
+  color: #fff;
+  letter-spacing: .3rem;
+  font-family: "WellrockSlab";
+  text-align: center;
+  margin-top: 22rem;
+  padding-bottom: 7rem;
 }
