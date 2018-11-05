@@ -1,270 +1,127 @@
-* {
-  box-sizing: border-box;
-}
-
-html {
+.body{
   font-size: 10px;
 }
 
-body {
-  display: grid;
-  grid-template-areas:
-  "navbar"
-  "intro"
-  "elena"
-  "bio";
-  grid-template-columns: 12fr;
-}
-
-.navbar {
-  grid-area: navbar;
-}
-
-.hero {
-  background-image: url("../images/arrow1.png");
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: inherit;
-}
-
-.intro {
-  grid-area: intro;
-  font-size: 9rem;
-  padding-bottom: 1rem;
-  padding-left: 20rem;
-  padding-top: 7rem;
-  color: #8B8100;
-  font-family: "Champagne & Limousines";
-  font-weight: bold;
-  letter-spacing: .35rem;
-}
-
-hr {
-  width: 37%;
-  align-items: left;
-}
-
-.elena {
-  grid-area: elena;
-  font-size: 7.5rem;
-  padding-bottom: 3rem;
-  padding-left: 20rem;
-  margin-bottom: 1rem;
+h1{
   color: #8F8ACD;
-  font-family: "Madeleina Sans";
-  letter-spacing: .2rem;
-}
-
-.bio {
-  grid-area: bio;
-  font-size: 3rem;
-  padding-bottom: 3rem;
-  padding-left: 20rem;
-  padding-bottom: 13rem;
-  color: #ffffff;
-  line-height: 150%;
-  font-family: "WellrockSlab";
-  letter-spacing: .15rem;
-  margin-bottom: 5rem;
-}
-
-.featured-project{
+  font-size: 75px;
+  text-align: left;
   font-family: "Champagne & Limousines";
-  font-size: 9rem;
-  color: #8B8100;
-}
-
-.featured {
-  color: #8B8100;
-  text-align: center;
-  /* margin-bottom: 5rem; */
-}
-
-.trunk {
-  float: left;
-  background-image: url("../images/trunk-screenshot.png");
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: contain;
-  text-align: center;
-  letter-spacing: .4rem;
-  margin-left: 18.9rem;
-  margin-top: 8rem;
-}
-
-.trunk-image {
-  float: right;
-  margin-right: 18.9rem;
-  margin-top: 9.4rem;
-  width: 450px;
-  height: auto;
-}
-
-.trunk h1{
-  color: #8B8100;
-  font-family:"Madeleina Sans";
-  font-size: 7.5rem;
-  padding-top: 5rem;
-  text-align: center;
-  width: auto;
-}
-
-.trunk h3{
-  color: #fff;
-  font-family: "Madeleina Sans";
-  font-size: 3.5rem;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-  letter-spacing: .3rem;
-}
-
-.trunk h4{
-  color: #9486B5;
-  font-family: "WellrockSlab";
-  font-size: 3rem;
-  padding-bottom: 7rem;
-}
-
-.other-projects {
-  font-family: "Champagne & Limousines";
-  font-size: 9rem;
-  color: #8B8100;
-  margin-top: 8rem;
-
-}
-
-.project-one{
-  color: #8B8100;
-  text-align: center;
-  margin-bottom: 5rem;
-}
-
-.project1-text {
-  float: left;
-  background-image: url("../images/balloon.png");
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: contain;
-  text-align: center;
-  letter-spacing: .4rem;
-  margin-left: 18.8rem;
-  width: 44rem;
-  height: auto;
-}
-
-.project1-text h1{
-  color: #8B8100;
-  font-family:"Madeleina Sans";
-  font-size: 7.5rem;
-  padding-top: 8rem;
-}
-
-.project1-text h3{
-  color: #fff;
-  font-family: "Madeleina Sans";
-  font-size: 3.5rem;
-  padding-top: 3rem;
-  padding-bottom: 4.5rem;
-  padding-left: 8rem;
-  padding-right: 8rem;
-  letter-spacing: .3rem;
-}
-
-.project1-text h4{
-  color: #9486B5;
-  font-family: "WellrockSlab";
-  font-size: 3rem;
-  padding-bottom: 7rem;
-}
-
-.project2-text {
-  float: right;
-  background-image: url("../images/clock.png");
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: contain;
-  text-align: center;
-  letter-spacing: .4rem;
-  margin-right: 18.8rem;
-  width: 44rem;
-  height: auto;
-}
-
-.project2-text h1{
-  color: #8B8100;
-  font-family:"Madeleina Sans";
-  font-size: 7.5rem;
-  padding-top: 8rem;
-}
-
-.project2-text h3{
-  color: #fff;
-  font-family: "Madeleina Sans";
-  font-size: 3.5rem;
-  padding-top: 3rem;
-  padding-bottom: 4.5rem;
-  padding-left: 8rem;
-  padding-right: 8rem;
-  letter-spacing: .3rem;
-}
-
-.project2-text h4{
-  color: #9486B5;
-  font-family: "WellrockSlab";
-  font-size: 3rem;
-  padding-bottom: 7rem;
-}
-
-footer{
-    background-image: url("../images/footer-background.png");
-    background-repeat: no-repeat;
-}
-
-.footer-connect {
-  color: #9486B5;
-  font-family: "Champagne & Limousines";
+  margin-left: 198px;
+  margin-right: 198px;
   font-weight: bold;
-  font-size: 6rem;
-  text-align: center;
-  margin-top: 14rem;
-  margin-bottom: 7.2rem;
-  letter-spacing: .35rem
 }
 
-.linkedin {
-  float: left;
-  margin-left: 34rem;
+h2 {
+  font-size: 65px;
+  color: #8B8100;
+  margin-left: 198px;
+  margin-right: 198px;
+  font-family:"Madeleina Sans"
 }
 
-.email {
-  float: left;
-  margin-left: 9rem;
+h4{
+  margin-left: 198px;
+  margin-right: 198px;
 }
 
-.twitter {
-  float: left;
-  margin-left: 9rem;
-}
-
-.github {
-  float: right;
-  margin-right: 34rem;
-}
-
-.designed h4{
-  font-size: 3rem;
-  color: #fff;
-  letter-spacing: .3rem;
+p{
+  color: #2a2a2a;
+  font-size: 20px;
   font-family: "WellrockSlab";
+  line-height: 170%;
+  margin-left: 198px;
+  margin-right: 198px;
+  font-weight: lighter;
+}
+
+a {
+  font-weight: bold;
+  color: #8F8ACD;
+  text-decoration: none;
+  font-family: "WellrockSlabBold";
+}
+
+.navbar{
+
+}
+
+.trunk-summary{
+  background-image: url("../images/summary-background.png");
+  background-repeat: no-repeat;
+}
+
+.trunk-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 46px;
+  width: 50%;
+}
+
+section.trunk-title h1{
+  font-family: "Champagne & Limousines";
+  font-size: 150px;
   text-align: center;
-  margin-top: 22rem;
-  margin-bottom: 7rem;
+  color: #8B8100;
+  font-weight: bold;
+  margin-top: 100px;
 }
 
-@media (min-width: 70rem) {
-  body {
+
+.trunk-underline{
+  align-items: center;
+  width: 40%;
+  margin-top: 0px;
 }
 
+
+.prototype-link{
+  text-decoration: none;
+  color: #8F8ACD;
+  font-size: 35px;
+  letter-spacing: .2rem;
+  font-weight: lighter;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.trunk-summary p {
+  color: #fff;
+  font-weight: 100;
+}
+
+.trunk-summary h1{
+  margin-top: 70px;
+  margin-bottom: 47px;
+}
+
+section.problem h2{
+  margin-left: 198px;
+  margin-right: 198px;
+  margin-bottom: 40px;
+
+}
+
+section.solution h2{
+  margin-left: 0px;
+  margin-bottom: 40px;
+
+}
+
+section.problem-sol{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 180px;
+}
+
+section.problem p{
+  margin-right: 40px
+  width: 30%;
+  padding-right: 0px;
+}
+
+section.solution p{
+  margin-left: 0px;
 }
